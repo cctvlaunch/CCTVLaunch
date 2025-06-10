@@ -85,7 +85,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/cctvlaunch-logo-nobg.png-128x128.png",
-    "mbrsiteDomain": "d6zqqlrvgq",
+    "mbrsiteDomain": "pyciip2f7l",
     "usedWebp": false,
     "cssOptimize": false,
     "lazyLoad": false,
@@ -102,8 +102,8 @@
     "spellingSwitch": true,
     "site_lang": "en",
     "witsec-white-label": true,
-    "global_header_custom": "\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-B8RF5XE33B\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-B8RF5XE33B');\n</script>\n\n\n<meta name=\"google-site-verification\" content=\"NRVsgW74I4Ykannq9S7bUeUdZCI9uVH4BFOD7rqzQW0\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-W6WN6STK');</script>\n<!-- End Google Tag Manager -->\n\n<!-- Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '736358204570983');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=736358204570983&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n",
-    "global_after_body": "\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-W6WN6STK\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
+    "global_header_custom": "\n<meta name=\"google-site-verification\" content=\"NRVsgW74I4Ykannq9S7bUeUdZCI9uVH4BFOD7rqzQW0\" />\n",
+    "global_after_body": ""
   },
   "pages": {
     "index.html": {
