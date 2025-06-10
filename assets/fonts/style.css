@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'MADEINFINITYPersonalUse-Black';
+   font-display: swap;
+   src: url('MADEINFINITYPersonalUse-Black/font.ttf');
+}
+@font-face {
+   font-family: 'MADEINFINITYPersonalUse-Regular';
+   font-display: swap;
+   src: url('MADEINFINITYPersonalUse-Regular/font.ttf');
+}
