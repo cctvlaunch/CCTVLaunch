@@ -1,7 +1,30 @@
 <!DOCTYPE html>
 <html  lang="en">
 <head>
-  
+
+	<script>
+(function () {
+  const loc = window.location;
+  const path = loc.pathname;
+
+  // Redirect from /page.html → /page
+  if (path.endsWith('.html')) {
+    const clean = path.replace(/\.html$/, '');
+    window.location.replace(clean + loc.search + loc.hash);
+    return;
+  }
+
+  // Redirect from /page/ → /page (but not root or directories)
+  if (path.length > 1 && path.endsWith('/')) {
+    const clean = path.replace(/\/+$/, '');
+    window.location.replace(clean + loc.search + loc.hash);
+    return;
+  }
+})();
+</script>
+
+
+	
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
