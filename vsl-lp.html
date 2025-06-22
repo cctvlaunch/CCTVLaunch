@@ -14,12 +14,7 @@
     return;
   }
 
-  // Redirect from /page/ → /page (but not root or directories)
-  if (path.length > 1 && path.endsWith('/')) {
-    const clean = path.replace(/\/+$/, '');
-    window.location.replace(clean + loc.search + loc.hash);
-    return;
-  }
+
 })();
 </script>
 
